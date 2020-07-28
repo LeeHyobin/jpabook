@@ -20,9 +20,7 @@ public class JpaMain {
         EntityTransaction tx = em.getTransaction();
         tx.begin();
         //code
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
-        String t1 = "2020-07-23 15:36:35".substring(0,8);
-        System.out.println(t1);
+
         try {
 
             Book book = new Book();
